@@ -6,7 +6,7 @@ interface ProjectLink {
 }
 
 interface ProjectCardProps {
-  image: string;
+  image?: string;
   title: string;
   description: string;
   techs: string[];
