@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
             <a href="#home" className="flex items-center gap-2 text-foreground font-semibold">
-              <span className="text-primary">E</span>lias
+              <span className="text-primary"><img src="src\assets\meta\logo.png" alt="" style={{width:"35px"}} /></span>Giri
             </a>
             <p className="text-muted-foreground text-sm">
               Web designer and front-end developer
@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/girisankarplathottathil"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"

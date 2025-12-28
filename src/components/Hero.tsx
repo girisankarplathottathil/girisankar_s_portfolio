@@ -3,13 +3,13 @@ import DotsPattern from "./DotsPattern";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-16">
+     <section id="home" className="min-h-screen flex items-center pt-16">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-6">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
-              Elias is a{" "}
+              Giri is a{" "}
               <span className="text-primary">web designer</span> and{" "}
               <span className="text-primary">front-end</span> developer
             </h1>
@@ -38,11 +38,13 @@ const Hero = () => {
               </svg>
 
               {/* Main Hero Image Area */}
-              <div className="relative w-72 h-80 md:w-80 md:h-96 border border-primary flex items-end justify-center overflow-hidden">
+              <div className="relative w-72 h-80 md:w-80 md:h-96 border border-primary flex items-end justify-center " style={{width:"27rem"}}>
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
                 <div className="absolute bottom-0 w-full h-3/4 bg-gradient-to-t from-primary/30 via-primary/10 to-transparent" />
-                <div className="text-8xl mb-8">👨‍💻</div>
+                <div className="text-8xl mb-8"><img  src="src\assets\images\hero.png" alt="hero_img" /></div>
               </div>
+
+
 
               {/* Status Badge */}
               <div className="absolute -bottom-4 left-0 right-0 mx-auto w-fit border border-border bg-background px-3 py-2 flex items-center gap-2">
@@ -54,6 +56,26 @@ const Hero = () => {
 
               {/* Dots Pattern */}
               <DotsPattern className="absolute -bottom-12 -left-12 opacity-50" />
+            </div>
+          </div>
+        </div>
+
+        {/* Quote Box */}
+        <div className="mt-24">
+          <div className="relative border border-border p-8 max-w-3xl mx-auto">
+            {/* Top left quote mark */}
+            <div className="absolute -top-4 left-8 bg-background px-2">
+              <span className="text-muted-foreground text-3xl font-bold">"</span>
+            </div>
+            
+            <p className="text-xl md:text-2xl text-center font-medium">
+              With great power comes great electricity bill
+            </p>
+            
+            {/* Bottom right quote mark and attribution */}
+            <div className="absolute -bottom-4 right-8 bg-background px-2 flex items-center gap-2">
+              <span className="text-muted-foreground text-3xl font-bold">"</span>
+              <span className="border border-border px-3 py-1 text-sm text-muted-foreground">- Dr. Who</span>
             </div>
           </div>
         </div>

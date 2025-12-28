@@ -9,7 +9,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Projects - Elias</title>
+        <title>Girisankar's Portfolio</title>
         <meta
           name="description"
           content="All of my projects - Web design and front-end development work by Elias."
@@ -22,8 +22,9 @@ const ProjectsPage = () => {
           <div className="container">
             {/* Page Header */}
             <div className="mb-12">
-              <h1 className="section-title text-4xl md:text-5xl">/projects</h1>
-              <p className="text-muted-foreground mt-2">All of my projects</p>
+              <h1 className="section-title text-4xl md:text-5xl">/Projects</h1>
+              <p className="text-muted-foreground mt-2">All of my projects <br/>
+              Because of NDAs with previous employers, I can't show my past live code.</p>
             </div>
 
             {/* Decent Projects */}

@@ -11,10 +11,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Elias - Web Designer & Front-End Developer</title>
+        <title>Giri - Web Designer & Front-End Developer</title>
         <meta
           name="description"
-          content="Elias is a self-taught front-end developer and web designer crafting responsive websites where technologies meet creativity."
+          content="Giri is a self-taught front-end developer and web designer crafting responsive websites where technologies meet creativity."
         />
       </Helmet>
 

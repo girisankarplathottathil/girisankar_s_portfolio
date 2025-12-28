@@ -1,8 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faComments,faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
   return (
     <section id="contacts" className="py-20">
       <div className="container">
-        <h2 className="section-title">contacts</h2>
+        <h2 className="section-title">Contacts</h2>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Text */}
@@ -20,20 +22,20 @@ const Contact = () => {
               <h3 className="text-foreground font-semibold mb-4">Message me here</h3>
               <div className="space-y-3">
                 <a
-                  href="https://discord.com"
+                  href="http://wa.me/918281155896"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  <span className="text-lg">💬</span>
-                  <span>Discord</span>
+                  <span className="text-lg"><FontAwesomeIcon icon={faComments} /></span>
+                  <span>giri.dev.</span>
                 </a>
                 <a
-                  href="mailto:elias@example.com"
+                  href="mailto:girisankarph@gmail.com"
                   className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  <span className="text-lg">📧</span>
-                  <span>elias@example.com</span>
+                  <span className="text-lg"><FontAwesomeIcon icon={faEnvelope} /></span>
+                  <span>girisankarph@gmail.com</span>
                 </a>
               </div>
             </div>

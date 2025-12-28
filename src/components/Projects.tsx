@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="flex items-center justify-between mb-12">
           <h2 className="section-title flex-shrink-0">projects</h2>
           <Button variant="ghost" asChild className="hidden md:inline-flex">
-            <Link to="/projects">View all =&gt;</Link>
+            <Link to="/projects">View all~~~=&gt;</Link>
           </Button>
         </div>
 
