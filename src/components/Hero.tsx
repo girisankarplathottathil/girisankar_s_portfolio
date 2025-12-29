@@ -41,7 +41,7 @@ const Hero = () => {
               <div className="relative w-72 h-80 md:w-80 md:h-96 border border-primary flex items-end justify-center " style={{width:"27rem"}}>
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
                 <div className="absolute bottom-0 w-full h-3/4 bg-gradient-to-t from-primary/30 via-primary/10 to-transparent" />
-                <div className="text-8xl mb-8"><img  src="assets\images\hero.png" alt="hero_img" /></div>
+                <div className="text-8xl mb-8"><img  src="dist/assets/images/hero.png" alt="hero_img" /></div>
               </div>
 
 
