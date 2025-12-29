@@ -29,7 +29,7 @@ const About = () => {
           <div className="relative flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-64 h-80 border border-primary bg-gradient-to-br from-primary/10 to-transparent flex items-center justify-center">
-                <span className="text-7xl"><img style={{ maxWidth: 'fit-content' }} src="assets\images\about-me.png" alt="about_me_img" /></span>
+                <span className="text-7xl"><img style={{ maxWidth: 'fit-content' }} src="https://github.com/girisankarplathottathil/portfolio/blob/main/about-me.png" alt="about_me_img" /></span>
               </div>
               <DotsPattern className="absolute -bottom-8 -right-8 opacity-40" />
             </div>
