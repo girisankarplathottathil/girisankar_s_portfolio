@@ -87,8 +87,8 @@ export const decentProjects: Project[] = [
     techs: ["TypeScript", "SASS", "WebPack"],
     links: [
       { label: "Figma", url: "https://figma.com" },
-      { label: "Github", url: "https://github.com/EliasDevis/EliasDevis.github.io" },
-      { label: "Live", url: "https://eliasdevis.github.io/" },
+      { label: "Github", url: "https://github.com/girisankarplathottathil/girisankar_s_portfolio" },
+      { label: "Live", url: "https://girisankar.netlify.app/projects" },
     ],
   },
   {
