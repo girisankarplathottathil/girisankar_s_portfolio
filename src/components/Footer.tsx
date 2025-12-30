@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-left">
             <a href="#home" className="flex items-center gap-2 text-foreground font-semibold">
-              <span className="text-primary"><img src="https://github.com/girisankarplathottathil/portfolio/blob/main/logo.png" alt="" style={{width:"35px"}} /></span>Giri
+              <span className="text-primary"><img src="https://github.com/girisankarplathottathil/girisankar_s_portfolio/blob/main/dist/assets/meta/logo.png?raw=true" alt="" style={{width:"35px"}} /></span>Giri
             </a>
             <p className="text-muted-foreground text-sm">
               Web designer and front-end developer
