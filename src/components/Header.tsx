@@ -19,7 +19,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 text-foreground font-semibold">
-          <span className="text-primary"><img src="https://github.com/girisankarplathottathil/portfolio/blob/main/logo.png" alt="" style={{width:"35px"}} /></span>Giri
+          <span className="text-primary"><img src="https://github.com/girisankarplathottathil/girisankar_s_portfolio/blob/main/dist/assets/meta/logo.png?raw=true" alt="" style={{width:"35px"}} /></span>Giri
         </Link>
 
         {/* Desktop Nav */}
